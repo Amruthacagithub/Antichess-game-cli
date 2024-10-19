@@ -41,4 +41,20 @@ java -cp bin Main
 
 - Enter player names when prompted.
 - Input moves in the format "A2 B3" to move a piece from A2 to B3.
+- Column Notation:
+        A = 1st column (the leftmost column from White's perspective)
+        B = 2nd column
+        C = 3rd column
+        D = 4th column
+        E = 5th column
+        F = 6th column
+        G = 7th column
+        H = 8th column (the rightmost column)
+
+Row Notation:
+        1 = White's back rank
+        2 = White's second rank
+        ...
+        7 = Black's second rank
+        8 = Black's back rank
 - Type quit to exit the game, declaring the opponent as the winner.
